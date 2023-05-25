@@ -367,7 +367,8 @@ class enigma{
                 }
                 
             }
-
+            
+            cout<<endl;
             cout<<endl<<"Your message is:";
             cout<<endl<<encryptedMessage;
             cout<<endl;

@@ -242,12 +242,12 @@ class enigma{
                 break;
             }
 
-            useEnigma(userOption,pReflector,initialReflector,pFirstRotor,initialFirstRotor,pSecondRotor,initialSecondRotor,pThirdRotor,initialThirdRotor);
+            useEnigma(pReflector,initialReflector,pFirstRotor,initialFirstRotor,pSecondRotor,initialSecondRotor,pThirdRotor,initialThirdRotor);
         
         }
 
         //encrypt message
-        void useEnigma(int userOption,const int* userReflector,int positionReflector,const int* userFirstRotor,int positionFirstRotor,const int* userSecondRotor,int positionSecondRotor,const int* userThirdRotor,int positionThirdRotor){
+        void useEnigma(const int* userReflector,int positionReflector,const int* userFirstRotor,int positionFirstRotor,const int* userSecondRotor,int positionSecondRotor,const int* userThirdRotor,int positionThirdRotor){
             string message{};
             string encryptedMessage{};
 
